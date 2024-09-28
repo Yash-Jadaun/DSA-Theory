@@ -8,7 +8,7 @@ public class binarysearch {
 
             int mid = start + (end - start)/2;
 
-            if(target < arr[mid]){
+            if (target < arr[mid]){ //move left
                 end = mid - 1;
 
             }else if(target > arr[mid]){
